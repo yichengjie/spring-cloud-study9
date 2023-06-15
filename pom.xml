@@ -12,6 +12,7 @@
         <module>hello-world</module>
         <module>eureka-server</module>
         <module>eureka-client</module>
+        <module>hello-swagger</module>
     </modules>
 
     <properties>
@@ -37,6 +38,12 @@
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-boot-starter</artifactId>
+                <version>3.0.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
